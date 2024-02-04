@@ -17,8 +17,6 @@ class Student:
             return 'Ошибка'
 
 
-
-
 class Mentor:
     def __init__(self, name, surname):
         self.name = name
