@@ -12,7 +12,7 @@ class Student:
             if course in lecturer.grades:
                 lecturer.grades[course] += [grade]
             else:
-                lecturer.grades[corse] = [grade]
+                lecturer.grades[course] = [grade]
         else:
             return 'Ошибка'
 
